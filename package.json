@@ -1,0 +1,36 @@
+{
+  "name": "amanuensis",
+  "version": "1.0.0",
+  "author": "Farhan Hasib",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "next-themes": "^0.2.1",
+    "openai": "^4.55.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "autoprefixer": "^10.4.17",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
