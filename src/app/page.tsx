@@ -16,7 +16,7 @@ function Home() {
                 </h1>
                 <p className="mb-12 text-base text-black sm:text-lg md:text-xl">
                   Transcribe note from speech and chat with it using powerful AI
-                  models. Ask to summarize, answer questions, and much more.
+                  models. Ask to summarize, answer questions and much more.
                 </p>
                 <Link
                   href="https://github.com/farhan-hasib/amanuensis"
