@@ -44,7 +44,7 @@ const NotePage = () => {
   const [apiKey, setApiKey] = useState<string | null>(null);
   const [model, setModel] = useState<string | null>(null);
   const [showModal, setShowModal] = useState(true);
-  const MAX_CHAR_COUNT = 1000;
+  const MAX_CHAR_COUNT = 10000;
 
   useEffect(() => {
     setCharCount(text.length);

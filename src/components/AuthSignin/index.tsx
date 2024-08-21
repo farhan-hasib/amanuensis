@@ -9,7 +9,7 @@ const AuthSignin = () => {
           callbackUrl: "https://amanuensis.vercel.app/note",
         })
       }
-      className="border-stroke border-color: #ccc mb-6 flex w-full items-center justify-center rounded-sm border bg-gray-200 px-6 py-3 text-base text-black outline-none transition-all duration-500 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none"
+      className="border-stroke border-color: #ccc mb-6 flex w-full items-center justify-center rounded-sm border border border-gray-300 bg-gray-200 px-6 py-3 text-base text-black outline-none transition-all duration-500 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none"
     >
       <span className="mr-3">
         <svg

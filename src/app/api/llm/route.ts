@@ -18,7 +18,7 @@ export async function POST(request) {
     const response = await openai.chat.completions.create({
       model: model,
       messages: [{ role: "user", content: formattedPrompt }],
-      max_tokens: 200,
+      max_tokens: 500,
     });
     let content = response.choices[0].message?.content || "No response";
     const lastSentenceEnd = Math.max(
