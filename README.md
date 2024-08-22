@@ -7,6 +7,8 @@ A MVP AI Note App to take notes from speech in real-time using Speech-to-Text AP
 
 ## Demo
 
+https://github.com/user-attachments/assets/ae314f2b-cba7-40c6-b442-7354c360748c
+
 ## Getting Started
 
 To try out from web:
