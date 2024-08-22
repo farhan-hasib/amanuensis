@@ -61,5 +61,3 @@ Please contact regarding any bugs or issues.
 ## Contact
 
 Farhan Hasib - farhanhasib08@gmail.com
-
-Project Link: [https://github.com/farhan-hasib/amanuensis](https://github.com/farhan-hasib/amanuensis)
