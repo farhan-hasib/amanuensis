@@ -8,7 +8,7 @@ export async function POST(request) {
     dangerouslyAllowBrowser: true,
   });
   const formattedPrompt = `
-    You are a helpful educational AI assistant. Please respond to the following prompt:
+    You are a helpful educational assistant. Please respond to the following prompt:
     ${prompt}
 
     Here's the relevant text:
