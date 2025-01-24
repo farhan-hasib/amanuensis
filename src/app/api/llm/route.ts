@@ -8,18 +8,20 @@ export async function POST(request) {
     dangerouslyAllowBrowser: true,
   });
   const formattedPrompt = `
-    You are a helpful educational assistant. Please respond to the following prompt:
+    Please do the following:
     ${prompt}
 
-    Here's the relevant text:
+    For this text:
     ${text}
   `;
   try {
     const response = await openai.chat.completions.create({
       model: model,
-      messages: [{ role: "user", content: formattedPrompt }],
-      max_tokens: 500,
-    });
+      messages: [
+        { role: "system", content: "You are a helpful educational assistant." },
+        { role: "user", content: formattedPrompt}],
+        max_tokens: 500,
+      });
     let content = response.choices[0].message?.content || "No response";
     const lastSentenceEnd = Math.max(
       content.lastIndexOf("."),
